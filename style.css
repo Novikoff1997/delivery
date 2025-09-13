@@ -1,0 +1,149 @@
+@import url(./fonts.css);
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 36px;
+}
+
+.button {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button__blue {
+  border-radius: 2px;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.button__border_grey {
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  color: #595959;
+}
+
+.header {
+  padding-top: 44px;
+  padding-bottom: 25px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.header__button {
+  gap: 6px;
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(#f5f5f500, #f5f5f5);
+}
+
+.hero {
+  margin-top: 18px;
+}
+
+.hero__content {
+  border-radius: 10px;
+  background: #fff1b8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__text-content {
+  flex-grow: 1;
+  max-width: 538px;
+  margin-left: 70px;
+}
+
+.hero__title {
+  color: #302c34;
+  font-family: Roboto;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero__description {
+  color: #302c34;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero__image {
+}
+
+.footer {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  gap: 15px;
+  margin-left: 35px;
+}
+
+.footer__item {
+  color: #595959;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+}
+
+.footer__social-item {
+}
+
+.footer__social-link {
+}
